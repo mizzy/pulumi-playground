@@ -9,7 +9,7 @@ Vagrant.configure('2') do |config|
       cd /home/vagrant && curl -fsSL https://get.pulumi.com | su vagrant -c sh
     fi
     apt update
-    apt install make
+    apt install make gcc net-tools
     mkdir /opt/pulumi
     sudo chown vagrant /opt/pulumi
     echo 'export PATH=/opt/pulumi:/opt/pulumi/bin:$PATH:/usr/local/go/bin' >> /etc/profile
