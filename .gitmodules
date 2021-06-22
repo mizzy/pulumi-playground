@@ -4,3 +4,6 @@
 [submodule "pulumi-aws"]
 	path = pulumi-aws
 	url = https://github.com/pulumi/pulumi-aws.git
+[submodule "pulumi-kubernetes"]
+	path = pulumi-kubernetes
+	url = https://github.com/pulumi/pulumi-kubernetes.git
